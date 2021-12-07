@@ -1,5 +1,7 @@
 import React from 'react'
 import './Topbar.scss'
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+
 //import {ComputerIcon} from '@mui/icons-material/Computer';
 
 
@@ -9,11 +11,15 @@ function Topbar({menuOpen, setMenuOpen}) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                <a href="#intro" className="logo">genius.</a>
-                <div className="itemContainer">
-                   
-                    <span>01234 678 910</span>
-                </div>
+                <a href="#intro" className="logo">js.</a>
+                {/* <div className="itemContainer"> */}
+               
+                    <a href="https://github.com/jordan-s99"><AiFillGithub size={35} /></a>
+                    <a href="https://github.com/jordan-s99" className="navbar-text">jordan-s99</a>
+                    <a href="https://www.linkedin.com/in/jordan-s-60b1009b/"><AiFillLinkedin size={35} /></a>
+                    <a className="navbar-text" href="https://www.linkedin.com/in/jordan-s-60b1009b/">Jordan Smith</a>
+                    
+                
                 
                 </div>
                 

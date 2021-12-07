@@ -40,6 +40,8 @@ function Intro() {
                     <h3>Software <span ref={textRef}> 
                         </span></h3>
                 */}
+
+                {/* put a featured project on the intro page - latest project */}
                 <a href="#portfolio">
                     <img  src="../assets/down.png" alt="" />
                 </a>
