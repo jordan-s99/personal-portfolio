@@ -12,7 +12,7 @@ function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["Developer", "Creator", "Engineer", "Enthusiast"],
+            strings: ["Developer", "Creator", "Engineer", "Enthusiast", "test"],
         });
        
 
